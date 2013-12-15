@@ -185,11 +185,11 @@ function handledown(){
 			//console.log(good,davg)
 			if(dx<-movethresh&&dirx){
 				//console.log('right')
-				Reveal.navigateRight()
+				Reveal.Right()
 			}
 			else if(dx>movethresh&&dirx){
 				//console.log('left')
-				Reveal.navigateLeft()
+				Reveal.Left()
 			}
 			if(dy>movethresh&&!dirx){
 				if(davg>overthresh){
@@ -198,7 +198,7 @@ function handledown(){
 				}
 				else{
 					//console.log('up')
-					Reveal.navigateUp()
+					Reveal.Up()
 				}
 			}
 			else if(dy<-movethresh&&!dirx){
@@ -208,7 +208,7 @@ function handledown(){
 				}
 				else{
 					//console.log('down')
-					Reveal.navigateDown()
+					Reveal.Down()
 				}
 			}
 			state=2
