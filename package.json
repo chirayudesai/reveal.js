@@ -1,11 +1,32 @@
 {
-	"author": "William W. Wu (reveal.js by Hakim El Hattab)",
-	"name": "revealjs",
-	"description": "Webcam-based gesture recognition with reveal.js",
+	"name": "reveal-gesture.js",
 	"version": "2.6.1",
+	"description": "Webcam-based gesture recognition with reveal.js, The HTML Presentation Framework",
+	"scripts": {
+		"test": "grunt test",
+		"start": ""
+	},
+	"author": {
+		"name": "Hakim El Hattab",
+		"email": "hakim.elhattab@gmail.com",
+		"web": "http://hakim.se"
+	},
+	"contributors": [
+		{
+			"name": "William W. Wu",
+		},
+		{
+			"name": "Sam Pikesley",
+			"email": "github@orgraphone.org",
+		},
+		{
+			"name": "Chirayu Desai",
+			"email": "chirayudesai1@gmail.com",
+		}
+	],
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/wvvvw/reveal.js.git"
+		"url": "git://github.com/chirayudesai/reveal.js.git"
 	},
 	"engines": {
 		"node": "~0.8.0"
@@ -27,4 +48,10 @@
 		"grunt-zip": "~0.7.0",
 		"grunt": "~0.4.0"
 	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "https://github.com/chirayudesai/reveal.js/blob/master/LICENSE"
+		}
+	]
 }
